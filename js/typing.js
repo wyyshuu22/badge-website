@@ -59,7 +59,7 @@ function createConfetti() {
 function getRandomColor() {
     // Red color palette
     const colorsRed = [
-        '#ff0a54',
+        '#ff1a54',
         '#ff477e',
         '#ff7096',
         '#ff85a1',
