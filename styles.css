@@ -7,20 +7,54 @@
   color: #fff;
 }
 
-/* Base Styles */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; /* Light background */
-  color: #333; /* Dark text color */
+  background-color: #f4f4f4; 
+  color: #333; 
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Dark Theme Styles */
+
 body.dark-theme {
   background: linear-gradient(135deg, #1c1f24, #2d3b45, #000000);
-  color: #dfe1e5; /* Light text color */
+  color: #dfe1e5; 
+}
+
+.searchbar {
+  display: flex; 
+  align-items: center; 
+  margin: 0 20px; 
+}
+
+.searchbar input[type="text"] {
+  padding: 8px; 
+  width: 200px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  transition: border 0.3s; 
+}
+
+.searchbar input[type="text"]:focus {
+  border-color: #4CAF50; 
+  outline: none; 
+  color: #333;
+}
+
+.searchbar button {
+  padding: 8px 12px; 
+  margin-left: 5px; 
+  background-color: #6999d8; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.searchbar button:hover {
+  background-color: #42429d; 
 }
 
 .header-container {
